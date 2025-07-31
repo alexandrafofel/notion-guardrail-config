@@ -1,0 +1,80 @@
+# ==================================================================
+#  Workspace Skeleton – Guardrail (v1.0)
+#  ✏️  Înlocuieşte placeholder-urile cu date reale (email, template)
+# ==================================================================
+
+workspace:
+  01_Interviews:
+    template: interview-template.md
+    permissions:
+      - role: Owner
+        users:
+          - alexandrafofel@gmail.com
+          - biancamoraru99@icloud.com
+      - role: Viewer
+        groups:
+          - Stakeholders
+
+  02_Roadmap:
+    template: roadmap-2025.md
+    permissions:
+      - role: Owner
+        users:
+          - alexandrafofel@gmail.com
+      - role: Contributor
+        users:
+          - biancamoraru99@icloud.com
+      - role: Viewer
+        groups:
+          - Stakeholders
+
+  03_Experiments:
+    template: experiments-sheet.md
+    permissions:
+      - role: Owner
+        users:
+          - alexandrafofel@gmail.com
+      - role: Contributor
+        users:
+          - biancamoraru99@icloud.com
+      - role: Viewer
+        groups:
+          - Stakeholders
+
+  04_Metrics:
+    template: metrics-dashboard.md
+    permissions:
+      - role: Owner
+        users:
+          - alexandrafofel@gmail.com
+      - role: Viewer        
+        users:
+          - biancamoraru99@icloud.com
+      - role: Viewer
+        groups:
+          - Stakeholders
+
+  05_LearningLog:
+    template: learning-log-template.md
+    permissions:
+      - role: Owner
+        users:
+          - alexandrafofel@gmail.com
+      - role: Contributor
+        users:
+          - biancamoraru99@icloud.com
+      - role: Viewer
+        groups:
+          - Stakeholders
+
+  06_IP:
+    template: ip-doc-index.md
+    permissions:
+      - role: Owner
+        users:
+          - alexandrafofel@gmail.com
+          - biancamoraru99@icloud.com
+      - role: Viewer
+        groups:
+          - Stakeholders
+
